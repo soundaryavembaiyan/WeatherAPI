@@ -7,7 +7,7 @@ document.addEventListener('DOMContentLoaded', function () {
     if (location) {
         fetchWeather(location);
     } else {
-        displayError("Location not found");
+        displayError("Location not found!");
     }
 });
 
